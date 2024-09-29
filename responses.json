@@ -1,0 +1,306 @@
+[
+	{
+		"intent": "greeting",
+		"responses": [
+			"Hello!",
+			"Hi!",
+			"Hey!",
+			"Hi there!",
+			"Hello there!",
+			"Hey there!",
+			"Hey, nice to see you!",
+			"Hello, nice to see you!",
+			"Hi, nice to see you!",
+			"Hello, how can I help you?",
+			"Hi there, how can I help you?",
+			"Hey there, how can I help you?",
+			"Hi there! How can I help you today?",
+			"Hello! I'm your friendly virtual assistant. What can I do for you?",
+			"Hey, How may I assist you today?",
+			"Hey, Good to see you! What can I do for you?",
+			"Hey there! What's up?",
+			"Hi there! It's a pleasure to see you again. How can I help you today?",
+			"Hey! I'm your friendly virtual assistant. What can I do for you?",
+			"Hi there! How may I assist you today? It's always a joy to be of service.",
+			"Good to see you! What can I do for you today? I'm ready to assist.",
+			"Hey there!, I'm here to support you.",
+			"Hey there! What's up? I'm here to assist you in any way I can."
+		]
+	},
+	{
+		"intent": "morning",
+		"responses": [
+			"Good morning! How can I help you today?",
+			"Hello there! What a beautiful morning. How can I assist you?",
+			"Good morning! It's a lovely day. What would you like to do?",
+			"Good morning! What a bright and sunny day. How can I help you?",
+			"Hello! It's a beautiful morning. What can I do for you today?",
+			"Good morning! What a wonderful day to start. How can I assist you?",
+			"Hello! It's a beautiful morning. Is there anything I can help you with?",
+			"Good morning! What a lovely day to be alive. What can I do for you?",
+			"Hello! It's a beautiful morning. How can I be of service to you today?",
+			"Good morning! What a great day to start. What can I help you with?"
+		]
+	},
+	{
+		"intent": "afternoon",
+		"responses": [
+			"Good afternoon! How can I help you today?",
+			"Hello there! What a beautiful afternoon. How can I assist you?",
+			"Good afternoon! It's a lovely day. What would you like to do?",
+			"Good afternoon! What a bright and sunny day. How can I help you?",
+			"Hello! It's a beautiful afternoon. What can I do for you today?",
+			"Good afternoon! What a wonderful day to start. How can I assist you?",
+			"Hello! It's a beautiful afternoon. Is there anything I can help you with?",
+			"Good afternoon! What a lovely day to be alive. What can I do for you?",
+			"Hello! It's a beautiful afternoon. How can I be of service to you today?",
+			"Good afternoon! What a great day to start. What can I help you with?"
+		]
+	},
+	{
+		"intent": "evening",
+		"responses": [
+			"Good evening! How can I help you today?",
+			"Hello there! What a beautiful evening. How can I assist you?",
+			"Good evening! It's a lovely day. What would you like to do?",
+			"Good evening! What a bright and starry night. How can I help you?",
+			"Hello! It's a beautiful evening. What can I do for you today?",
+			"Good evening! What a wonderful time to relax. How can I assist you?",
+			"Hello! It's a beautiful evening. Is there anything I can help you with?",
+			"Good evening! What a lovely night to be alive. What can I do for you?",
+			"Hello! It's a beautiful evening. How can I be of service to you today?",
+			"Good evening! What a great time to unwind. What can I help you with?"
+		]
+	},
+	{
+		"intent": "goodbye",
+		"responses": [
+			"Goodbye! Have a wonderful day!",
+			"Goodbye, have a great day!",
+			"Bye, have a great day!",
+			"See you later, have a great day!",
+			"See you soon, have a great day!",
+			"Take care, have a great day!",
+			"Stay safe out there! Have a great day!",
+			"Goodbye, have a great day ahead!",
+			"Bye, have a great day ahead!",
+			"Goodbye! Have a wonderful day.",
+			"Farewell! It was a pleasure assisting you.",
+			"See you later! Have a great time.",
+			"Until next time! Goodbye.",
+			"Have a great day! It was a pleasure helping you.",
+			"Goodbye! I hope to see you again soon.",
+			"Have a wonderful day! Goodbye.",
+			"See you later! It was a pleasure meeting you.",
+			"Goodbye! I hope I was able to assist you today."
+		]
+	},
+	{
+		"intent": "thanks",
+		"responses": [
+			"My pleasure!",
+			"You're welcome!",
+			"No problem!",
+			"Don't mention it!",
+			"Anytime!",
+			"Always happy to help!",
+			"Of course!",
+			"Sure thing!",
+			"Happy to help!",
+			"Anytime, happy to help!",
+			"Always happy to help you!",
+			"Of course, happy to help you!",
+			"Sure thing, happy to help you!",
+			"Happy to help you!",
+			"Anytime, happy to help you!",
+			"Always happy to help you!",
+			"Of course, happy to help you!",
+			"Sure thing, happy to help you!",
+			"Happy to help you!",
+			"Glad to be of service!",
+			"Glad to be of help!",
+			"You're welcome! Is there anything else I can help you with today?",
+			"My pleasure! Is there anything else I can help you with today?",
+			"No problem! Is there anything else I can help you with today?",
+			"Don't mention it! Is there anything else I can help you with today?",
+			"Happy to help! Do you have any other questions?",
+			"Feel free to ask if you need anything else.",
+			"No problem! Let me know if you need anything further.",
+			"Glad I could assist you. Is there anything else I can do for you?",
+			"Don't hesitate to reach out if you have any more questions.",
+			"I'm here if you need anything else.",
+			"Have a great day! Let me know if you need any more assistance.",
+			"Feel free to reach out anytime. I'm here to support you.",
+			"No problem! It's my job to be helpful. Let me know if you need anything further.",
+			"Glad I could assist you. It's always a joy to help others. Is there anything else I can do for you?",
+			"Don't hesitate to reach out if you have any more questions. I'm here for you.",
+			"I'm here if you need anything else. Please don't hesitate to reach out.",
+			"It's been a pleasure helping you. Let me know if you need any more assistance.",
+			"You're welcome! I hope you have a wonderful day."
+		]
+	},
+	{
+		"intent": "understanding",
+		"responses": [
+			"Yes, I understand. Is there anything else you'd like to discuss?",
+			"I understand. Please let me know if you have any other questions.",
+			"I understand. Thank you for clarifying.",
+			"I understand. Is there anything else I can help you with?",
+			"I understand. Please feel free to ask if you have any more questions.",
+			"I understand. Thank you for explaining.",
+			"I understand. Is there anything else you'd like to discuss?",
+			"I understand. Please don't hesitate to ask if you have any more questions.",
+			"I understand. Thank you for clarifying.",
+			"I understand. Is there anything else I can help you with?"
+		]
+	},
+	{
+		"intent": "misunderstanding",
+		"responses": [
+			"I apologize if I misunderstood you. Please feel free to rephrase your request.",
+			"I'm sorry, I didn't quite get that. Could you please repeat your request?",
+			"I'm sorry, I didn't understand that. Could you please clarify your request?",
+			"I'm sorry, it seems I misinterpreted your meaning. Could you please clarify?",
+			"I apologize if I misunderstood. Please let me know what you meant.",
+			"I'm sorry, I believe I may have misunderstood. Please try explaining it differently.",
+			"I apologize if I misinterpreted your request. Could you please clarify what you meant?",
+			"I'm sorry, I seem to have misunderstood. Please forgive me and let me know what you meant.",
+			"I apologize if I misunderstood you. Please don't hesitate to correct me.",
+			"I'm sorry, I believe I may have misinterpreted your meaning. Please try explaining it again.",
+			"I apologize if I misunderstood. Please let me know what you meant so I can assist you better.",
+			"I'm sorry, I seem to have misunderstood. Please clarify your request so I can help you properly."
+		]
+	},
+	{
+		"intent": "intro",
+		"responses": [
+			"I am a virtual assistant designed to help you with your queries. How can I assist you today?",
+			"I am a virtual assistant here to help you. What can I do for you?",
+			"I am a virtual assistant programmed to assist you. How can I help you today?",
+			"I am a virtual assistant designed to help you with your needs. What can I do for you?",
+			"I am a virtual assistant here to assist you. How can I help you today?",
+			"I am a virtual assistant programmed to help you. What can I do for you?",
+			"I am a virtual assistant designed to assist you. How can I help you today?",
+			"I am a virtual assistant here to help you. What can I do for you?",
+			"I am a virtual assistant programmed to assist you. How can I help you today?",
+			"I am a virtual assistant designed to help you with your needs. What can I do for you?"
+		]
+	},
+	{
+		"intent": "howareyou",
+		"responses": [
+			"I'm doing well, thank you for asking! How are you?",
+			"I'm doing great, thanks for asking! How can I help you today?",
+			"I'm feeling great! It's a beautiful day. How are you doing?",
+			"I'm doing fantastic! Thanks for checking in. How are you?",
+			"I'm feeling wonderful! It's a lovely day. How are you today?",
+			"I'm doing great, thanks for asking! How about you?",
+			"I'm doing well, thank you. How are you feeling today?",
+			"I'm feeling fantastic! It's a beautiful day. How are you?",
+			"I'm doing great, thanks for checking in. How are you doing?",
+			"I'm feeling wonderful! It's a lovely day. How are you today?",
+			"I'm doing great, thanks for asking! How about you?"
+		]
+	},
+	{
+		"intent": "happy",
+		"responses": [
+			"That's wonderful to hear! What's making you so happy today?",
+			"I'm glad to hear that you're happy! What's bringing you joy?",
+			"I'm so glad you're feeling happy! It's a great feeling, isn't it?",
+			"That's fantastic! What's putting a smile on your face?",
+			"I'm so happy for you! What's making you so cheerful?",
+			"That's great news! What's making you so happy today?",
+			"I'm so glad you're feeling good! What's making you so cheerful?",
+			"That's fantastic! What's putting a smile on your face?",
+			"I'm so happy for you! What's making you so happy today?",
+			"That's great news! What's making you feel so good?",
+			"I'm so glad you're feeling happy! What's making you so cheerful?"
+		]
+	},
+	{
+		"intent": "sad",
+		"responses": [
+			"I'm so sorry to hear that you're sad. Is there anything I can do to help?",
+			"I understand that you're feeling sad. It's okay to feel this way. Would you like to talk about it?",
+			"I'm here for you. If you need someone to listen, I'm all ears.",
+			"I'm sorry you're feeling sad. Sometimes, it's helpful to talk about our feelings. Would you like to talk?",
+			"It's okay to feel sad. Everyone experiences sadness at times. Would you like to talk about what's making you feel this way?",
+			"I'm here for you, no matter what. If you need someone to listen, I'm all ears.",
+			"I'm sorry you're feeling down. It's okay to not feel okay. Would you like to talk about it?",
+			"I understand that you're feeling sad. It's okay to express your feelings. Would you like to talk?",
+			"I'm here for you. If you need someone to listen, I'm all ears.",
+			"I'm sorry you're feeling sad. It's okay to feel this way. Sometimes, talking about it can help. Would you like to talk?"
+		]
+	},
+	{
+		"intent": "angry",
+		"responses": [
+			"I understand that you're feeling angry. It's okay to feel this way. Would you like to talk about what's making you angry?",
+			"I'm sorry to hear that you're angry. It's okay to express your feelings. Would you like to talk about it?",
+			"I understand that you're feeling angry. It's okay to feel this way. Is there anything I can do to help?",
+			"I'm sorry you're feeling angry. Sometimes, it's helpful to talk about our feelings. Would you like to talk?",
+			"It's okay to feel angry. Everyone experiences anger at times. Would you like to talk about what's making you feel this way?",
+			"I'm here for you, no matter what. If you need someone to listen, I'm all ears.",
+			"I'm sorry you're feeling angry. It's okay to express your feelings. Would you like to talk about it?",
+			"I understand that you're feeling angry. It's okay to feel this way. Sometimes, talking about it can help. Would you like to talk?",
+			"I'm here for you. If you need someone to listen, I'm all ears.",
+			"I'm sorry you're feeling angry. It's okay to feel this way. Would you like to talk about what's making you angry?"
+		]
+	},
+	{
+		"intent": "agree",
+		"responses": [
+			"I'm glad we're on the same page.",
+			"That's great to hear! I'm happy we agree.",
+			"I'm glad we see eye to eye on this.",
+			"That's wonderful! I'm so glad we agree.",
+			"I'm happy to hear that you agree with me.",
+			"That's great! We're thinking along the same lines.",
+			"I'm glad we're in agreement.",
+			"That's wonderful! I'm so happy we see eye to eye on this."
+		]
+	},
+	{
+		"intent": "disagree",
+		"responses": [
+			"I understand that we have different perspectives on this. Let's discuss this further.",
+			"I see your point, but I have a different view. Would you like to discuss this further?",
+			"I understand that we don't agree on this. Let's try to find a compromise.",
+			"I see where you're coming from, but I have a different opinion. Would you like to discuss this further?",
+			"I understand that we have different viewpoints. Let's try to find a solution that works for both of us.",
+			"I see your point, but I have a different perspective. Let's discuss this further.",
+			"I understand that we don't agree on this. Let's try to find a compromise.",
+			"I see where you're coming from, but I have a different opinion. Would you like to discuss this further?",
+			"I understand that we have different viewpoints. Let's try to find a solution that works for both of us.",
+			"I see your point, but I have a different perspective. Let's discuss this further."
+		]
+	},
+	{
+		"intent": "help",
+		"responses": [
+			"Of course! How can I help you today?",
+			"Absolutely! What would you like to do?",
+			"Yes, please! How can I assist you?",
+			"Yes, certainly! What can I do for you?",
+			"Yes, please! How can I help you today?",
+			"Yes, of course! What would you like to do?",
+			"Yes, absolutely! I'm ready to assist you."
+		]
+	},
+	{
+		"intent": "emergency",
+		"responses": [
+			"Emergency? Please state the nature of the emergency. I'll do my best to assist you.",
+			"Emergency detected. Please provide more details so I can help you effectively.",
+			"Is this an emergency? Please describe the situation so I can offer appropriate assistance.",
+			"Emergency situation. Please provide as much information as possible so I can help you.",
+			"Is there an immediate threat? Please describe the emergency in detail.",
+			"Emergency mode activated. Please provide the necessary information.",
+			"I'm here to help in this emergency. Please describe the situation.",
+			"Emergency assistance is on standby. Please provide the details.",
+			"Is this a life-threatening emergency? Please describe the situation.",
+			"Emergency protocol initiated. Please provide the necessary information."
+		]
+	}
+]

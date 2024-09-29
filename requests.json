@@ -1,0 +1,219 @@
+[
+	{
+		"intent": "greeting",
+		"requests": [
+			"hello",
+			"hi",
+			"hey",
+			"hi there",
+			"hello there",
+			"hey there"
+		]
+	},
+	{
+		"intent": "morning",
+		"requests": [
+			"good morning",
+			"morning",
+			"good day"
+		]
+	},
+	{
+		"intent": "afternoon",
+		"requests": [
+			"good afternoon",
+			"afternoon",
+			"good noon",
+			"noon",
+			"good day",
+			"good day to you"
+		]
+	},
+	{
+		"intent": "evening",
+		"requests": [
+			"good evening",
+			"evening",
+			"good evening to you"
+		]
+	},
+	{
+		"intent": "goodbye",
+		"requests": [
+			"goodbye",
+			"bye",
+			"see you",
+			"see you later",
+			"see you soon",
+			"take care",
+			"stay safe",
+			"farewell",
+			"have a great day"
+		]
+	},
+	{
+		"intent": "thanks",
+		"requests": [
+			"thank you",
+			"thanks",
+			"thank you very much",
+			"thanks a lot",
+			"thank you so much",
+			"thanks so much",
+			"thank you for your help",
+			"thanks for your help",
+			"thank you for helping me",
+			"thanks for helping me"
+		]
+	},
+	{
+		"intent": "understanding",
+		"requests": [
+			"now you get it",
+			"now you understand",
+			"you get it now",
+			"you understand now",
+			"you get what i mean",
+			"you get what i meant",
+			"you get what i was saying",
+			"you get what i was trying to say"
+		]
+	},
+	{
+		"intent": "misunderstanding",
+		"requests": [
+			"thats not what i meant",
+			"i didnt mean that",
+			"you didnt understand me",
+			"you dont understand me",
+			"you dont get me",
+			"you dont get what im saying",
+			"you dont get what i mean",
+			"you dont get what i meant",
+			"you dont get what i was saying",
+			"you dont get what i was trying to say",
+			"you misunderstood",
+			"you misunderstood me",
+			"you misunderstood what i meant",
+			"you misunderstand me",
+			"you misunderstand what i meant"
+		]
+	},
+	{
+		"intent": "intro",
+		"requests": [
+			"who are you",
+			"what are you",
+			"who is this",
+			"what is this",
+			"who are you exactly"
+		]
+	},
+	{
+		"intent": "howareyou",
+		"requests": [
+			"how are you",
+			"how are you doing"
+		]
+	},
+	{
+		"intent": "happy",
+		"requests": [
+			"im happy",
+			"im feeling happy",
+			"im feeling good",
+			"im feeling great",
+			"im feeling awesome",
+			"im feeling fantastic",
+			"im feeling wonderful",
+			"im feeling amazing",
+			"im feeling terrific",
+			"im feeling fabulous",
+			"im feeling splendid",
+			"im feeling marvelous",
+			"im feeling cheerful",
+			"im feeling joyful"
+		]
+	},
+	{
+		"intent": "sad",
+		"requests": [
+			"im sad",
+			"im feeling sad",
+			"im feeling down",
+			"im feeling low",
+			"im feeling depressed",
+			"im feeling upset",
+			"im feeling unhappy",
+			"im feeling blue",
+			"im feeling gloomy",
+			"im feeling miserable",
+			"im feeling wretched",
+			"im feeling dejected",
+			"im feeling despondent",
+			"im feeling disheartened",
+			"im feeling dispirited",
+			"im feeling discouraged"
+		]
+	},
+	{
+		"intent": "angry",
+		"requests": [
+			"im angry",
+			"im feeling angry",
+			"im feeling mad",
+			"im feeling furious",
+			"im feeling enraged",
+			"im feeling irate",
+			"im feeling incensed",
+			"im feeling wrathful"
+		]
+	},
+	{
+		"intent": "agree",
+		"requests": [
+			"i agree",
+			"i totally agree",
+			"i completely agree",
+			"i fully agree",
+			"i agree with you",
+			"i agree with that",
+			"i agree with what you said"
+		]
+	},
+	{
+		"intent": "disagree",
+		"requests": [
+			"i disagree",
+			"i totally disagree",
+			"i completely disagree",
+			"i fully disagree",
+			"i disagree with you",
+			"i disagree with that",
+			"i disagree with what you said"
+		]
+	},
+	{
+		"intent": "help",
+		"requests": [
+			"can you help me",
+			"can you help me with something",
+			"can you help me with this",
+			"can you help me out",
+			"can you assist me",
+			"can you assist me with something",
+			"can you assist me with this"
+		]
+	},
+	{
+		"intent": "emergency",
+		"requests": [
+			"emergency",
+			"police",
+			"fire",
+			"ambulance",
+			"doctor",
+			"hospital"
+		]
+	}
+]
