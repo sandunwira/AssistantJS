@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
 	let responsesData = [];
 
 	// Fetch the JSON files
-	fetch('requests.json')
+	fetch('data/requests.json')
 		.then(response => response.json())
 		.then(data => {
 			requestsData = data;
 		});
 
-	fetch('responses.json')
+	fetch('data/responses.json')
 		.then(response => response.json())
 		.then(data => {
 			responsesData = data;
