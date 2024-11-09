@@ -9,6 +9,8 @@
 			resize: none;
 		}
 	</style>
+
+	<script src="assistant.js" defer></script>
 </head>
 
 <body>
@@ -22,7 +24,34 @@
 
 	<p id="botResponse"></p>
 
-	<script src="script.js"></script>
+	<script>
+		document.addEventListener('DOMContentLoaded', async function () {
+			const chatForm = document.getElementById('chatForm');
+			const chatMessage = document.getElementById('chatMessage');
+			const botResponse = document.getElementById('botResponse');
+
+			try {
+				const assistant = new Assistant();
+				await assistant.initialize();
+
+				chatForm.addEventListener('submit', async function (event) {
+					event.preventDefault();
+					const userMessage = chatMessage.value.trim();
+
+					try {
+						const response = await assistant.processQuery(userMessage);
+						botResponse.innerHTML = response;
+					} catch (error) {
+						console.error('Error processing query:', error);
+						botResponse.innerHTML = 'Sorry, an error occurred while processing your request.';
+					}
+				});
+			} catch (error) {
+				console.error('Failed to initialize assistant:', error);
+				botResponse.innerHTML = 'Sorry, the assistant failed to initialize properly.';
+			}
+		});
+	</script>
 </body>
 
 </html>

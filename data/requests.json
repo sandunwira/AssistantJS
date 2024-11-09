@@ -7,15 +7,21 @@
 			"hey",
 			"hi there",
 			"hello there",
-			"hey there"
+			"hey there",
+			"whats up",
+			"howdy",
+			"bonjour",
+			"salut",
+			"namaste",
+			"anyone there",
+			"good day"
 		]
 	},
 	{
 		"intent": "morning",
 		"requests": [
 			"good morning",
-			"morning",
-			"good day"
+			"morning"
 		]
 	},
 	{
@@ -24,9 +30,7 @@
 			"good afternoon",
 			"afternoon",
 			"good noon",
-			"noon",
-			"good day",
-			"good day to you"
+			"noon"
 		]
 	},
 	{
@@ -35,6 +39,14 @@
 			"good evening",
 			"evening",
 			"good evening to you"
+		]
+	},
+	{
+		"intent": "night",
+		"requests": [
+			"good night",
+			"night",
+			"good night to you"
 		]
 	},
 	{
@@ -48,7 +60,19 @@
 			"take care",
 			"stay safe",
 			"farewell",
-			"have a great day"
+			"have a great day",
+			"ciao",
+			"adios",
+			"later",
+			"c u",
+			"see u",
+			"ttyl",
+			"talk to you later",
+			"talk to u later",
+			"c ya",
+			"i got to go",
+			"gtg",
+			"im leaving"
 		]
 	},
 	{
@@ -64,6 +88,28 @@
 			"thanks for your help",
 			"thank you for helping me",
 			"thanks for helping me"
+		]
+	},
+	{
+		"intent": "noresponse",
+		"requests": [
+			"",
+			" "
+		]
+	},
+	{
+		"intent": "neutral",
+		"requests": [
+			"nothing",
+			"nothing much",
+			"not much",
+			"just chillin'",
+			"same old, same old",
+			"nothing new",
+			"just hanging out",
+			"just taking it easy",
+			"nothing special",
+			"just the usual"
 		]
 	},
 	{
@@ -104,9 +150,34 @@
 		"requests": [
 			"who are you",
 			"what are you",
+			"who you are",
+			"tell me about yourself",
+			"tell me more about yourself",
+			"what is your name",
+			"what should i call you",
+			"what's your name",
+			"introduce yourself",
+			"who is nova",
+			"what's your purpose",
+			"explain yourself",
 			"who is this",
 			"what is this",
 			"who are you exactly"
+		]
+	},
+	{
+		"intent": "tasks",
+		"requests": [
+			"your tasks",
+			"what can you do",
+			"what do you do",
+			"what tasks you can do",
+			"what are your tasks",
+			"what are your abilities",
+			"what are your capabilities",
+			"what are your functions",
+			"what are your features",
+			"what are your skills"
 		]
 	},
 	{
@@ -119,6 +190,7 @@
 	{
 		"intent": "happy",
 		"requests": [
+			"happy",
 			"im happy",
 			"im feeling happy",
 			"im feeling good",
@@ -138,6 +210,7 @@
 	{
 		"intent": "sad",
 		"requests": [
+			"sad",
 			"im sad",
 			"im feeling sad",
 			"im feeling down",
@@ -157,8 +230,9 @@
 		]
 	},
 	{
-		"intent": "angry",
+		"intent": "anger",
 		"requests": [
+			"angry",
 			"im angry",
 			"im feeling angry",
 			"im feeling mad",
@@ -170,8 +244,29 @@
 		]
 	},
 	{
+		"intent": "lust",
+		"requests": [
+			"lust",
+			"horny",
+			"turned on",
+			"aroused",
+			"im lusting",
+			"im feeling lustful",
+			"im feeling horny",
+			"im feeling turned on",
+			"im feeling aroused",
+			"im feeling passionate",
+			"im feeling amorous",
+			"im feeling frisky",
+			"im feeling randy",
+			"im feeling hot and bothered",
+			"im feeling hot and heavy"
+		]
+	},
+	{
 		"intent": "agree",
 		"requests": [
+			"agree",
 			"i agree",
 			"i totally agree",
 			"i completely agree",
@@ -184,6 +279,7 @@
 	{
 		"intent": "disagree",
 		"requests": [
+			"disagree",
 			"i disagree",
 			"i totally disagree",
 			"i completely disagree",
@@ -196,6 +292,13 @@
 	{
 		"intent": "help",
 		"requests": [
+			"help",
+			"problem",
+			"issue",
+			"trouble",
+			"question",
+			"need help",
+			"need assistance",
 			"can you help me",
 			"can you help me with something",
 			"can you help me with this",
@@ -203,6 +306,41 @@
 			"can you assist me",
 			"can you assist me with something",
 			"can you assist me with this"
+		]
+	},
+	{
+		"intent": "feedback",
+		"requests": [
+			"feedback",
+			"give feedback",
+			"provide feedback",
+			"send feedback",
+			"report a problem",
+			"report an issue",
+			"report a bug",
+			"submit a support ticket",
+			"submit feedback",
+			"how do i give feedback",
+			"how can i give feedback",
+			"how to give feedback",
+			"how do i provide feedback",
+			"how can i provide feedback",
+			"how to provide feedback",
+			"how do i send feedback",
+			"i want to provide feedback",
+			"i want to give feedback",
+			"i want to send feedback",
+			"how can i report a problem",
+			"how do i report a problem",
+			"how to report a problem",
+			"how can i report an issue",
+			"how do i report an issue",
+			"how to report an issue",
+			"how can i report a bug",
+			"how do i submit a support ticket",
+			"how to submit a support ticket",
+			"how can i submit a support ticket",
+			"how do i submit a bug"
 		]
 	},
 	{
@@ -214,6 +352,28 @@
 			"ambulance",
 			"doctor",
 			"hospital"
+		]
+	},
+	{
+		"intent": "joke",
+		"requests": [
+			"can you tell me a joke",
+			"tell me a joke",
+			"tell a joke",
+			"give me a joke",
+			"a joke",
+			"joke"
+		]
+	},
+	{
+		"intent": "fact",
+		"requests": [
+			"can you tell me a fact",
+			"tell me a fact",
+			"tell a fact",
+			"give me a fact",
+			"a fact",
+			"fact"
 		]
 	}
 ]
